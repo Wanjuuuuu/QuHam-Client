@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* ClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ClientTests.m */; };
+		00E356F31AD99517003FC87E /* QuHamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* QuHamTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -15,11 +15,11 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* ClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ClientTests.m */; };
-		5A872D7CB422282EADF88345 /* libPods-Client.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3647792486E86ACEC4F8D7B6 /* libPods-Client.a */; };
-		B2A15B28F19A691F01BC43C1 /* libPods-ClientTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9331EB1477FAE259C7FD8FF4 /* libPods-ClientTests.a */; };
-		CBE8C7CD27A6F65CFDA0A80B /* libPods-Client-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BC34440DD5EF37A7545022 /* libPods-Client-tvOSTests.a */; };
-		E0F243FE59FCBC3473438645 /* libPods-Client-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E32D21DAA88FE7BCC486EEF /* libPods-Client-tvOS.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* QuHamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* QuHamTests.m */; };
+		5A872D7CB422282EADF88345 /* libPods-QuHam.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3647792486E86ACEC4F8D7B6 /* libPods-QuHam.a */; };
+		B2A15B28F19A691F01BC43C1 /* libPods-QuHamTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9331EB1477FAE259C7FD8FF4 /* libPods-QuHamTests.a */; };
+		CBE8C7CD27A6F65CFDA0A80B /* libPods-QuHam-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BC34440DD5EF37A7545022 /* libPods-QuHam-tvOSTests.a */; };
+		E0F243FE59FCBC3473438645 /* libPods-QuHam-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E32D21DAA88FE7BCC486EEF /* libPods-QuHam-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,45 +28,45 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = Client;
+			remoteInfo = QuHam;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "Client-tvOS";
+			remoteInfo = "QuHam-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* ClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* QuHamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuHamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* ClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClientTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Client.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Client/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Client/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* QuHamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuHamTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* QuHam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuHam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = QuHam/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = QuHam/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Client/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Client/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Client/main.m; sourceTree = "<group>"; };
-		16DD15EBAE54A7AB9011721D /* Pods-Client-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Client-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Client-tvOS/Pods-Client-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* Client-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Client-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* Client-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Client-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3647792486E86ACEC4F8D7B6 /* libPods-Client.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Client.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		38D503BB9B2FCC5600CA7A18 /* Pods-ClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClientTests.release.xcconfig"; path = "Target Support Files/Pods-ClientTests/Pods-ClientTests.release.xcconfig"; sourceTree = "<group>"; };
-		45D8F54A7842E9CA3FEF1D2B /* Pods-Client-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Client-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Client-tvOSTests/Pods-Client-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		6E32D21DAA88FE7BCC486EEF /* libPods-Client-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Client-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7624DF2C16E519EA15E66564 /* Pods-ClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClientTests.debug.xcconfig"; path = "Target Support Files/Pods-ClientTests/Pods-ClientTests.debug.xcconfig"; sourceTree = "<group>"; };
-		81BC34440DD5EF37A7545022 /* libPods-Client-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Client-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9331EB1477FAE259C7FD8FF4 /* libPods-ClientTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ClientTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA82FDAEFF7D115389FDA484 /* Pods-Client-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Client-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Client-tvOS/Pods-Client-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		BFA5C36EE05FE36DF1EB2D61 /* Pods-Client.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Client.debug.xcconfig"; path = "Target Support Files/Pods-Client/Pods-Client.debug.xcconfig"; sourceTree = "<group>"; };
-		CF60E3BD5E0D49597CCEF1E5 /* Pods-Client-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Client-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Client-tvOSTests/Pods-Client-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = QuHam/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = QuHam/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = QuHam/main.m; sourceTree = "<group>"; };
+		16DD15EBAE54A7AB9011721D /* Pods-QuHam-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuHam-tvOS.release.xcconfig"; path = "Target Support Files/Pods-QuHam-tvOS/Pods-QuHam-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* QuHam-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QuHam-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* QuHam-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QuHam-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3647792486E86ACEC4F8D7B6 /* libPods-QuHam.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QuHam.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38D503BB9B2FCC5600CA7A18 /* Pods-QuHamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuHamTests.release.xcconfig"; path = "Target Support Files/Pods-QuHamTests/Pods-QuHamTests.release.xcconfig"; sourceTree = "<group>"; };
+		45D8F54A7842E9CA3FEF1D2B /* Pods-QuHam-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuHam-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-QuHam-tvOSTests/Pods-QuHam-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E32D21DAA88FE7BCC486EEF /* libPods-QuHam-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QuHam-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7624DF2C16E519EA15E66564 /* Pods-QuHamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuHamTests.debug.xcconfig"; path = "Target Support Files/Pods-QuHamTests/Pods-QuHamTests.debug.xcconfig"; sourceTree = "<group>"; };
+		81BC34440DD5EF37A7545022 /* libPods-QuHam-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QuHam-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9331EB1477FAE259C7FD8FF4 /* libPods-QuHamTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QuHamTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA82FDAEFF7D115389FDA484 /* Pods-QuHam-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuHam-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-QuHam-tvOS/Pods-QuHam-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		BFA5C36EE05FE36DF1EB2D61 /* Pods-QuHam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuHam.debug.xcconfig"; path = "Target Support Files/Pods-QuHam/Pods-QuHam.debug.xcconfig"; sourceTree = "<group>"; };
+		CF60E3BD5E0D49597CCEF1E5 /* Pods-QuHam-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuHam-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-QuHam-tvOSTests/Pods-QuHam-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F35E9E604F107153108351A7 /* Pods-Client.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Client.release.xcconfig"; path = "Target Support Files/Pods-Client/Pods-Client.release.xcconfig"; sourceTree = "<group>"; };
+		F35E9E604F107153108351A7 /* Pods-QuHam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuHam.release.xcconfig"; path = "Target Support Files/Pods-QuHam/Pods-QuHam.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2A15B28F19A691F01BC43C1 /* libPods-ClientTests.a in Frameworks */,
+				B2A15B28F19A691F01BC43C1 /* libPods-QuHamTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A872D7CB422282EADF88345 /* libPods-Client.a in Frameworks */,
+				5A872D7CB422282EADF88345 /* libPods-QuHam.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0F243FE59FCBC3473438645 /* libPods-Client-tvOS.a in Frameworks */,
+				E0F243FE59FCBC3473438645 /* libPods-QuHam-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBE8C7CD27A6F65CFDA0A80B /* libPods-Client-tvOSTests.a in Frameworks */,
+				CBE8C7CD27A6F65CFDA0A80B /* libPods-QuHam-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* ClientTests */ = {
+		00E356EF1AD99517003FC87E /* QuHamTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* ClientTests.m */,
+				00E356F21AD99517003FC87E /* QuHamTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = ClientTests;
+			path = QuHamTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* Client */ = {
+		13B07FAE1A68108700A75B9A /* QuHam */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = Client;
+			name = QuHam;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				3647792486E86ACEC4F8D7B6 /* libPods-Client.a */,
-				6E32D21DAA88FE7BCC486EEF /* libPods-Client-tvOS.a */,
-				81BC34440DD5EF37A7545022 /* libPods-Client-tvOSTests.a */,
-				9331EB1477FAE259C7FD8FF4 /* libPods-ClientTests.a */,
+				3647792486E86ACEC4F8D7B6 /* libPods-QuHam.a */,
+				6E32D21DAA88FE7BCC486EEF /* libPods-QuHam-tvOS.a */,
+				81BC34440DD5EF37A7545022 /* libPods-QuHam-tvOSTests.a */,
+				9331EB1477FAE259C7FD8FF4 /* libPods-QuHamTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,16 +152,15 @@
 		40F848EFB8E6652AAB73A39B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BFA5C36EE05FE36DF1EB2D61 /* Pods-Client.debug.xcconfig */,
-				F35E9E604F107153108351A7 /* Pods-Client.release.xcconfig */,
-				AA82FDAEFF7D115389FDA484 /* Pods-Client-tvOS.debug.xcconfig */,
-				16DD15EBAE54A7AB9011721D /* Pods-Client-tvOS.release.xcconfig */,
-				45D8F54A7842E9CA3FEF1D2B /* Pods-Client-tvOSTests.debug.xcconfig */,
-				CF60E3BD5E0D49597CCEF1E5 /* Pods-Client-tvOSTests.release.xcconfig */,
-				7624DF2C16E519EA15E66564 /* Pods-ClientTests.debug.xcconfig */,
-				38D503BB9B2FCC5600CA7A18 /* Pods-ClientTests.release.xcconfig */,
+				BFA5C36EE05FE36DF1EB2D61 /* Pods-QuHam.debug.xcconfig */,
+				F35E9E604F107153108351A7 /* Pods-QuHam.release.xcconfig */,
+				AA82FDAEFF7D115389FDA484 /* Pods-QuHam-tvOS.debug.xcconfig */,
+				16DD15EBAE54A7AB9011721D /* Pods-QuHam-tvOS.release.xcconfig */,
+				45D8F54A7842E9CA3FEF1D2B /* Pods-QuHam-tvOSTests.debug.xcconfig */,
+				CF60E3BD5E0D49597CCEF1E5 /* Pods-QuHam-tvOSTests.release.xcconfig */,
+				7624DF2C16E519EA15E66564 /* Pods-QuHamTests.debug.xcconfig */,
+				38D503BB9B2FCC5600CA7A18 /* Pods-QuHamTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -175,9 +174,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* Client */,
+				13B07FAE1A68108700A75B9A /* QuHam */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* ClientTests */,
+				00E356EF1AD99517003FC87E /* QuHamTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				40F848EFB8E6652AAB73A39B /* Pods */,
@@ -190,10 +189,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* Client.app */,
-				00E356EE1AD99517003FC87E /* ClientTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* Client-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* Client-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* QuHam.app */,
+				00E356EE1AD99517003FC87E /* QuHamTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* QuHam-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* QuHam-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -201,9 +200,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* ClientTests */ = {
+		00E356ED1AD99517003FC87E /* QuHamTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ClientTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "QuHamTests" */;
 			buildPhases = (
 				81B19A15E03805BD07073EC6 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -215,14 +214,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = ClientTests;
-			productName = ClientTests;
-			productReference = 00E356EE1AD99517003FC87E /* ClientTests.xctest */;
+			name = QuHamTests;
+			productName = QuHamTests;
+			productReference = 00E356EE1AD99517003FC87E /* QuHamTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* Client */ = {
+		13B07F861A680F5B00A75B9A /* QuHam */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Client" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "QuHam" */;
 			buildPhases = (
 				81152D0A37FA834B47CF7E9D /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -235,14 +234,14 @@
 			);
 			dependencies = (
 			);
-			name = Client;
-			productName = Client;
-			productReference = 13B07F961A680F5B00A75B9A /* Client.app */;
+			name = QuHam;
+			productName = QuHam;
+			productReference = 13B07F961A680F5B00A75B9A /* QuHam.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* Client-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* QuHam-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Client-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "QuHam-tvOS" */;
 			buildPhases = (
 				2F330640F09E4848768F89EB /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -255,14 +254,14 @@
 			);
 			dependencies = (
 			);
-			name = "Client-tvOS";
-			productName = "Client-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* Client-tvOS.app */;
+			name = "QuHam-tvOS";
+			productName = "QuHam-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* QuHam-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* Client-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* QuHam-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Client-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "QuHam-tvOSTests" */;
 			buildPhases = (
 				FC0007AF0E5E8034CBA45F4B /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -274,9 +273,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "Client-tvOSTests";
-			productName = "Client-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* Client-tvOSTests.xctest */;
+			name = "QuHam-tvOSTests";
+			productName = "QuHam-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* QuHam-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -292,6 +291,10 @@
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = DH5G8KPSKZ;
+						ProvisioningStyle = Automatic;
+					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
@@ -303,9 +306,9 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Client" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "QuHam" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -316,10 +319,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* Client */,
-				00E356ED1AD99517003FC87E /* ClientTests */,
-				2D02E47A1E0B4A5D006451C7 /* Client-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* Client-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* QuHam */,
+				00E356ED1AD99517003FC87E /* QuHamTests */,
+				2D02E47A1E0B4A5D006451C7 /* QuHam-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* QuHam-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -402,7 +405,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Client-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-QuHam-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -424,7 +427,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Client-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-QuHam-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -446,7 +449,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ClientTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-QuHamTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -468,7 +471,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Client-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-QuHam-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -520,7 +523,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* ClientTests.m in Sources */,
+				00E356F31AD99517003FC87E /* QuHamTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,7 +549,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* ClientTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* QuHamTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,12 +558,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* Client */;
+			target = 13B07F861A680F5B00A75B9A /* QuHam */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* Client-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* QuHam-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -572,7 +575,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = Client;
+			path = QuHam;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -580,14 +583,15 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7624DF2C16E519EA15E66564 /* Pods-ClientTests.debug.xcconfig */;
+			baseConfigurationReference = 7624DF2C16E519EA15E66564 /* Pods-QuHamTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ClientTests/Info.plist;
+				INFOPLIST_FILE = QuHamTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -597,17 +601,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuHam.app/QuHam";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38D503BB9B2FCC5600CA7A18 /* Pods-ClientTests.release.xcconfig */;
+			baseConfigurationReference = 38D503BB9B2FCC5600CA7A18 /* Pods-QuHamTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = ClientTests/Info.plist;
+				INFOPLIST_FILE = QuHamTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -617,52 +621,62 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuHam.app/QuHam";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFA5C36EE05FE36DF1EB2D61 /* Pods-Client.debug.xcconfig */;
+			baseConfigurationReference = BFA5C36EE05FE36DF1EB2D61 /* Pods-QuHam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				INFOPLIST_FILE = Client/Info.plist;
+				DEVELOPMENT_TEAM = DH5G8KPSKZ;
+				INFOPLIST_FILE = QuHam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Client;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kongryong.QuHam;
+				PRODUCT_NAME = QuHam;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F35E9E604F107153108351A7 /* Pods-Client.release.xcconfig */;
+			baseConfigurationReference = F35E9E604F107153108351A7 /* Pods-QuHam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = Client/Info.plist;
+				DEVELOPMENT_TEAM = DH5G8KPSKZ;
+				INFOPLIST_FILE = QuHam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Client;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kongryong.QuHam;
+				PRODUCT_NAME = QuHam;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA82FDAEFF7D115389FDA484 /* Pods-Client-tvOS.debug.xcconfig */;
+			baseConfigurationReference = AA82FDAEFF7D115389FDA484 /* Pods-QuHam-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -673,14 +687,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Client-tvOS/Info.plist";
+				INFOPLIST_FILE = "QuHam-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Client-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.QuHam-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -690,7 +704,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16DD15EBAE54A7AB9011721D /* Pods-Client-tvOS.release.xcconfig */;
+			baseConfigurationReference = 16DD15EBAE54A7AB9011721D /* Pods-QuHam-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -701,14 +715,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Client-tvOS/Info.plist";
+				INFOPLIST_FILE = "QuHam-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Client-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.QuHam-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -718,7 +732,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45D8F54A7842E9CA3FEF1D2B /* Pods-Client-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 45D8F54A7842E9CA3FEF1D2B /* Pods-QuHam-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -728,24 +742,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Client-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "QuHam-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Client-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.QuHam-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client-tvOS.app/Client-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuHam-tvOS.app/QuHam-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF60E3BD5E0D49597CCEF1E5 /* Pods-Client-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = CF60E3BD5E0D49597CCEF1E5 /* Pods-QuHam-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -755,17 +769,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Client-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "QuHam-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Client-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.QuHam-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client-tvOS.app/Client-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuHam-tvOS.app/QuHam-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -797,6 +811,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -872,7 +887,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ClientTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "QuHamTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -881,7 +896,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Client" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "QuHam" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -890,7 +905,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Client-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "QuHam-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -899,7 +914,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Client-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "QuHam-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -908,7 +923,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Client" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "QuHam" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
