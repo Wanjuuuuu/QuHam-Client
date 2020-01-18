@@ -49,3 +49,7 @@ buck-out/
 
 # CocoaPods
 /ios/Pods/
+.gitsecret/keys/random_seed
+!*.secret
+android/app/src/main/res/values/strings.xml
+ios/QuHam/Info.plist
