@@ -4,7 +4,7 @@
 
 https://facebook.github.io/react-native/docs/getting-started
 
-1. install Dependency
+#### 1. install Dependency
 
 ```
 brew install node
@@ -13,7 +13,7 @@ cd QuHam-Client
 npm install -D
 ```
 
-2. setup
+#### 2. setup
 
 - ios
 
@@ -31,7 +31,14 @@ brew cask install adoptopenjdk8
 // 3. Android 관련 PATH 및 JAVA_HOME을 jdk8로 설정
 ```
 
-3. run
+#### 3. git-secret 설정
+
+```
+brew install git-secret // git-secret 설치
+git-secret reveal // android에서는 secret 파일들을 지워야 빌드 가능
+```
+
+#### 4. run
 
 - ios
 

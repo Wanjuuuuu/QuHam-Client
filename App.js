@@ -1,8 +1,10 @@
 import React, {Component} from 'react';
 import {View, Text, StyleSheet, TouchableOpacity, Image} from 'react-native';
-import colors from './res/values/colors';
-import strings from './res/values/strings';
-import dimen from './res/values/dimen';
+
+import Login from './src/components/login';
+import colors from './src/res/colors';
+import strings from './src/res/strings';
+import dimen from './src/res/dimen';
 
 export default class App extends Component<Props> {
   render() {
@@ -24,9 +26,7 @@ export default class App extends Component<Props> {
           <TouchableOpacity style={styles.box}>
             <Text style={styles.text}>{strings.startWithNaver}</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={styles.box}>
-            <Text style={styles.text}>{strings.startWithFacebook}</Text>
-          </TouchableOpacity>
+          <Login style={styles.box} text={strings.startWithFacebook}></Login>
         </View>
       </View>
     );
@@ -51,6 +51,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: colors.blue,
     marginTop: dimen.startTitle.marginTop,
+    textAlign: 'center',
   },
   image: {
     height: dimen.startAppImage.height,
