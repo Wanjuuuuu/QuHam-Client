@@ -1,4 +1,4 @@
-package com.quham;
+package com.kongryong.quham;
 
 import com.facebook.react.ReactActivity;
 

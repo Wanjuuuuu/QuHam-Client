@@ -1,10 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.quham">
+  package="com.kongryong.quham">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-      android:name=".MainApplication"
+      android:name="com.kongryong.quham.MainApplication"
       android:label="@string/app_name"
       android:icon="@mipmap/ic_launcher"
       android:roundIcon="@mipmap/ic_launcher_round"
@@ -12,7 +12,7 @@
       android:theme="@style/AppTheme">
       <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
       <activity
-        android:name=".MainActivity"
+        android:name="com.kongryong.quham.MainActivity"
         android:label="@string/app_name"
         android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
         android:windowSoftInputMode="adjustResize">
