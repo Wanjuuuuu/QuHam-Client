@@ -12,6 +12,7 @@
 #import <React/RCTRootView.h>
 
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <KakaoOpenSDK/KakaoOpenSDK.h>
 
 @implementation AppDelegate
 
@@ -22,10 +23,10 @@
                                                    moduleName:@"QuHam"
                                             initialProperties:nil];
   [[FBSDKApplicationDelegate sharedInstance] application:application
-  didFinishLaunchingWithOptions:launchOptions];
-
+                           didFinishLaunchingWithOptions:launchOptions];
+  
   rootView.backgroundColor = [[UIColor alloc] initWithRed:1.0f green:1.0f blue:1.0f alpha:1];
-
+  
   self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
   UIViewController *rootViewController = [UIViewController new];
   rootViewController.view = rootView;
@@ -43,4 +44,17 @@
 #endif
 }
 
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url
+            options:(NSDictionary<NSString *,id> *)options {
+  if ([KOSession isKakaoAccountLoginCallback:url]) {
+    return [KOSession handleOpenURL:url];
+  }
+  
+  return false;
+}
+
+- (void)applicationDidBecomeActive:(UIApplication *)application
+{
+  [KOSession handleDidBecomeActive];
+}
 @end
