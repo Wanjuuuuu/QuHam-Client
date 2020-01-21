@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {View, Text, StyleSheet, TouchableOpacity, Image} from 'react-native';
 
-import Login from './src/components/login';
+import {LOGIN_ACCOUNT, Login} from './src/components/login';
 import colors from './src/res/colors';
 import strings from './src/res/strings';
 import dimen from './src/res/dimen';
@@ -20,19 +20,35 @@ export default class App extends Component<Props> {
           />
         </View>
         <View style={styles.boxContainer}>
-          <TouchableOpacity style={styles.box}>
-            <Text style={styles.text}>{strings.startWithKakao}</Text>
-          </TouchableOpacity>
-          <TouchableOpacity style={styles.box}>
-            <Text style={styles.text}>{strings.startWithNaver}</Text>
-          </TouchableOpacity>
-          <Login style={styles.box} text={strings.startWithFacebook}></Login>
+          <Login
+            style={styles.kakaoButton}
+            textStyle={styles.text}
+            account={LOGIN_ACCOUNT.Kakao}
+            text={strings.startWithKakao}></Login>
+          <Login
+            style={styles.loginButton}
+            textStyle={styles.text}
+            account={LOGIN_ACCOUNT.Naver}
+            text={strings.startWithNaver}></Login>
+          <Login
+            style={styles.facebookButton}
+            textStyle={styles.text}
+            account={LOGIN_ACCOUNT.Facebook}
+            text={strings.startWithFacebook}></Login>
         </View>
       </View>
     );
   }
 }
 
+const loginButton = {
+  height: dimen.startWithAccountBox.height,
+  width: dimen.startWithAccountBox.width,
+  borderRadius: dimen.borderRadius,
+  justifyContent: 'center',
+  alignItems: 'center',
+  marginBottom: dimen.startWithAccountBox.marginBottom,
+};
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -58,18 +74,17 @@ const styles = StyleSheet.create({
     width: dimen.startAppImage.width,
     marginTop: dimen.startAppImage.marginTop,
   },
-  box: {
-    height: dimen.startWithAccountBox.height,
-    width: dimen.startWithAccountBox.width,
-    borderWidth: dimen.borderWidth,
-    borderRadius: dimen.borderRadius,
-    borderColor: colors.greyBorder,
-    justifyContent: 'center',
-    alignItems: 'center',
-    marginBottom: dimen.startWithAccountBox.marginBottom,
+  loginButton,
+  kakaoButton: {
+    ...loginButton,
+    backgroundColor: '#F8E71C',
+  },
+  facebookButton: {
+    ...loginButton,
+    backgroundColor: '#4267B2',
   },
   text: {
-    fontSize: dimen.regularFontSize,
+    fontSize: dimen.smallFontSize,
     color: colors.greyText,
   },
 });
