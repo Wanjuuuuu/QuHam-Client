@@ -53,3 +53,5 @@ buck-out/
 !*.secret
 android/app/src/main/res/values/strings.xml
 ios/QuHam/Info.plist
+android/app/google-services.json
+ios/GoogleService-Info.plist

@@ -34,6 +34,8 @@ target 'QuHam' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
+  pod 'GoogleSignIn', '~> 5.0.2'
+
   target 'QuHamTests' do
     inherit! :search_paths
     # Pods for testing

@@ -13,6 +13,7 @@
 
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import <KakaoOpenSDK/KakaoOpenSDK.h>
+#import <RNGoogleSignin/RNGoogleSignin.h>
 
 @implementation AppDelegate
 
@@ -44,13 +45,12 @@
 #endif
 }
 
-- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url
-            options:(NSDictionary<NSString *,id> *)options {
+
+- (BOOL)application:(UIApplication *)application openURL:(nonnull NSURL *)url options:(nonnull NSDictionary<NSString *,id> *)options {
   if ([KOSession isKakaoAccountLoginCallback:url]) {
     return [KOSession handleOpenURL:url];
   }
-  
-  return false;
+  return [[FBSDKApplicationDelegate sharedInstance] application:application openURL:url options:options] || [RNGoogleSignin application:application openURL:url options:options];
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application

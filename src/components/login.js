@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 
 // Login wrapper libraries
 import KakaoLogins from '@react-native-seoul/kakao-login';
+import {GoogleSignin, statusCodes} from '@react-native-community/google-signin';
 import {AccessToken, LoginManager} from 'react-native-fbsdk';
 
 import dimen from '../res/dimen';
@@ -11,7 +12,7 @@ import colors from '../res/colors';
 
 const LOGIN_ACCOUNT = {
   Kakao: 'Kakao',
-  Naver: 'Naver',
+  Google: 'Google',
   Facebook: 'Facebook',
 };
 
@@ -36,7 +37,8 @@ class Login extends Component {
       case LOGIN_ACCOUNT.Kakao:
         this.handleKakaoLogin();
         break;
-      case LOGIN_ACCOUNT.Naver:
+      case LOGIN_ACCOUNT.Google:
+        this.handleGoogleLogin();
         break;
       case LOGIN_ACCOUNT.Facebook:
         this.handleFacebookLogin();
@@ -47,10 +49,15 @@ class Login extends Component {
     }
   };
   handleKakaoLogin = () => {
+    console.log('start Kakao login....');
     KakaoLogins.login()
       .then(result => {
         console.log(result);
         console.log(`Login Finished:${JSON.stringify(result)}`);
+        console.log('start getting profile....');
+        KakaoLogins.getProfile().then(result => {
+          console.log(result);
+        });
       })
       .catch(error => {
         console.log(error);
@@ -60,6 +67,28 @@ class Login extends Component {
           console.log(`Login Failed:${error.code} ${error.message}`);
         }
       });
+  };
+  handleGoogleLogin = () => {
+    console.log('start Google login....');
+    GoogleSignin.configure();
+    (async () => {
+      try {
+        await GoogleSignin.hasPlayServices();
+        const userInfo = await GoogleSignin.signIn();
+        console.log(userInfo);
+      } catch (error) {
+        console.log(error);
+        if (error.code === statusCodes.SIGN_IN_CANCELLED) {
+          // user cancelled the login flow
+        } else if (error.code === statusCodes.IN_PROGRESS) {
+          // operation (e.g. sign in) is in progress already
+        } else if (error.code === statusCodes.PLAY_SERVICES_NOT_AVAILABLE) {
+          // play services not available or outdated
+        } else {
+          // some other error happened
+        }
+      }
+    })();
   };
   handleFacebookLogin = () => {
     console.log('start Facebook login....');

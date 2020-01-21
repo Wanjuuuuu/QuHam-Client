@@ -28,8 +28,8 @@ export default class App extends Component<Props> {
           <Login
             style={styles.loginButton}
             textStyle={styles.text}
-            account={LOGIN_ACCOUNT.Naver}
-            text={strings.startWithNaver}></Login>
+            account={LOGIN_ACCOUNT.Google}
+            text={strings.startWithGoogle}></Login>
           <Login
             style={styles.facebookButton}
             textStyle={styles.text}
