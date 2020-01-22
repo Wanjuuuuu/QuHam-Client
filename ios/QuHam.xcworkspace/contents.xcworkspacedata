@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:QuHam.xcodeproj">
+      location = "group:/Users/wan/QuHam/forked/Client/ios/QuHam.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
